@@ -10,5 +10,6 @@ namespace WB_Core
 {
     public class WhateverBot
     {
+        private DiscordClient _client;
     }
 }
