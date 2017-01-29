@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whatever_Bot", "Whatever_Bot\Whatever_Bot.csproj", "{1DDF22F4-9DE6-4961-B439-E4CB1DC0E92B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C8F3EA6E-815A-4AF5-84E6-6924529E7B8C} = {C8F3EA6E-815A-4AF5-84E6-6924529E7B8C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WB_Core", "WB_Core\WB_Core.csproj", "{C8F3EA6E-815A-4AF5-84E6-6924529E7B8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{1DDF22F4-9DE6-4961-B439-E4CB1DC0E92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DDF22F4-9DE6-4961-B439-E4CB1DC0E92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DDF22F4-9DE6-4961-B439-E4CB1DC0E92B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F3EA6E-815A-4AF5-84E6-6924529E7B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F3EA6E-815A-4AF5-84E6-6924529E7B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F3EA6E-815A-4AF5-84E6-6924529E7B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F3EA6E-815A-4AF5-84E6-6924529E7B8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
